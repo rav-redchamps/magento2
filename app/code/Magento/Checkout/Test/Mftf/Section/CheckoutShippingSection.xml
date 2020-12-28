@@ -45,5 +45,6 @@
         <element name="addressFieldValidationError" type="text" selector="div.address div.field .field-error"/>
         <element name="textFieldAttrRequireMessage" type="text" selector="//input[@name='custom_attributes[{{attribute}}]']/ancestor::div[contains(@class, 'control')]/div/span" parameterized="true" timeout="30"/>
         <element name="textFieldAttribute" type="input" selector="[name*='custom_attributes[{{attribute}}]']" parameterized="true" timeout="30"/>
+        <element name="selectedShippingAddressData" type="text" selector=".shipping-address-item.selected-item"/>
     </section>
 </sections>
